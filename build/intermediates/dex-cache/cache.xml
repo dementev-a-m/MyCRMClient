@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.2_d33d1b5052ff9ca2ad1546c84ec6366dfbde09a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_96f05a711480ce4f3d70de5897f5b4f3160dc46c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_145f72961868f05671cea05359a290a8e0bfca2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_c7494a7150119b2455969d2bbf4e6d9c0a053ed5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.1_2420bc2790a60e89bbd6a8acb2c7d0fd658b55de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.1_f6a8cf37345f2e9bb26e25e10a82fe782b4309f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.1_30ae97a30e3c63fe23517e2db50f47c580d833e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.3.1_6b07f9e07dbaeeb446a780160d597d3384f988fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.1_d63ff4bdfd930b8889f8af281a10348bc4e97734\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63180dda58652209961f81270db682a80eee6393">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_79d433641df522f6acf6835610563399bc31d8ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.3.1_1cd83ba559800cea29974755a9706c613a90042a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.3.1_ee30c759c439fed81aaffd16a94416ee1c1f8ee4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.1_30e8fac38067b5a63507d3f7b91982eb934f1cae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.3.1_5357fc6501f146ff20b5b0ee07f31d65221ea5ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.1_4dede433920f89f4797a4b42202c647190c9609a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d880d7baf0c6dac727251527957b49fa3b934b3d">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_70c0aad2ea816f485cdb19d66fc9d752065ce4cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Android\Project\RemindMe\MyCRM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.1_ed54002638d94831a2b51216c37939d2605a8ec9\classes.dex" />
+    </item>
+
+</items>

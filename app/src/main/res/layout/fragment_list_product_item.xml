@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="66dp"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        android:id="@+id/imageView2" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Название продукта"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtProductName"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:text="тип продукта"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtProductType" />
+    </LinearLayout>
+</LinearLayout>
