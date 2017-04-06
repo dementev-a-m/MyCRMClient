@@ -23,7 +23,8 @@
         <activity android:name=".activity.ListPersonActivity" />
         <activity android:name=".activity.ProductActivity" />
         <activity android:name=".activity.PersonActivity" />
-        <activity android:name=".activity.ListProductActivity"></activity>
+        <activity android:name=".activity.ListProductActivity" />
+        <activity android:name=".activity.ListTransactionActivity"></activity>
     </application>
 
 </manifest>

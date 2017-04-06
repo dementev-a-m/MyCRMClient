@@ -25,8 +25,8 @@ public class ListPersonActivity extends AppCompatActivity {
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.list_person);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        PersonListAdapter personListAdapter = new PersonListAdapter(this);
-        recyclerView.setAdapter(personListAdapter);
+        PersonListAdapter adapter = new PersonListAdapter(this);
+        recyclerView.setAdapter(adapter);
     }
     public void setDataList() {
         Persons.getPersonList().add(new Person("Дементьев","Антон","Михайлович"));

@@ -1,8 +1,6 @@
 package com.example.mycrm.model;
 
-/**
- * Created by Антон Дементьев on 02.04.2017.
- */
+import java.util.List;
 
 public class Organization {
 
@@ -13,6 +11,8 @@ public class Organization {
     private String phone;
     private String email;
     private long primaryPersonId;
+    private List<Product> products;
+    private List<User> users;
     public Organization (){}
 
     public long getId() {
@@ -69,5 +69,21 @@ public class Organization {
 
     public void setPrimaryPersonId(long primaryPersonId) {
         this.primaryPersonId = primaryPersonId;
+    }
+
+    public List<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(List<User> users) {
+        this.users = users;
+    }
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<Product> products) {
+        this.products = products;
     }
 }

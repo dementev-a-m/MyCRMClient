@@ -1,22 +1,22 @@
 package com.example.mycrm.model;
 
 public class Product {
-    private long id;
+    private int id;
     private String name;
     private String type;
     private double price;
-    private long organizationId;
+    private int organizationId;
 
     public Product(){}
     public Product(String name, String type){
         this.name=name;
         this.type=type;
     }
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -48,7 +48,7 @@ public class Product {
         return organizationId;
     }
 
-    public void setOrganizationId(long organizationId) {
+    public void setOrganizationId(int organizationId) {
         this.organizationId = organizationId;
     }
 }

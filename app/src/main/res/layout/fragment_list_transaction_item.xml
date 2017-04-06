@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="№ Транзакции"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTransactionId" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Фамилия Имя Отчество"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTransactionClientName"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="dd.mm.yyyy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTransactionDate"
+            android:layout_weight="1"
+            android:textAlignment="textEnd" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cbxTransactionStatus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Название продукта"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTransactionProductName"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="30000 RUR"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTransactionPrice"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,10 +1,11 @@
 package com.example.mycrm.model;
 
 import java.util.Date;
+import java.util.List;
 
 public class Person {
 
-    private long id;
+    private int id;
 
     private String lastName;
 
@@ -21,7 +22,7 @@ public class Person {
     private String sex;
 
     private String status;
-
+    private List<Transaction> transaction;
     public Person() {
     }
     public Person(String lastName, String firstName, String middelName) {
@@ -93,11 +94,19 @@ public class Person {
         this.status = status;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
+    }
+
+    public List<Transaction> getTransaction() {
+        return transaction;
+    }
+
+    public void setTransaction(List<Transaction> transaction) {
+        this.transaction = transaction;
     }
 }

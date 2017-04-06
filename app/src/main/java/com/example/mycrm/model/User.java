@@ -1,15 +1,18 @@
 package com.example.mycrm.model;
 
+import java.util.List;
+
 /**
  * Created by Антон Дементьев on 02.04.2017.
  */
 
 public class User {
-
+    private int id;
     private String login;
     private String password;
-    private long organizationId;
-    private long personId;
+    private int organizationId;
+    private int personId;
+    private List<Task> tasks;
     public User(){}
 
     public String getLogin() {
@@ -28,19 +31,27 @@ public class User {
         this.password = password;
     }
 
-    public long getOrganizationId() {
+    public int getOrganizationId() {
         return organizationId;
     }
 
-    public void setOrganizationId(long organizationId) {
+    public void setOrganizationId(int organizationId) {
         this.organizationId = organizationId;
     }
 
-    public long getPersonId() {
+    public int getPersonId() {
         return personId;
     }
 
-    public void setPersonId(long personId) {
+    public void setPersonId(int personId) {
         this.personId = personId;
+    }
+
+    public List<Task> getTasks() {
+        return tasks;
+    }
+
+    public void setTasks(List<Task> tasks) {
+        this.tasks = tasks;
     }
 }

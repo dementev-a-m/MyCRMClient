@@ -3,13 +3,17 @@ package com.example.mycrm.model;
 import java.util.Date;
 
 public class Transaction {
-    private long id;
-    private long personId;
-    private long organizationId;
+    private int id;
+    private int personId;
+    private int organizationId;
     private double price;
     private String status;
     private Date date;
     public Transaction(){}
+    public Transaction(int id, int personId){
+        this.id=id;
+        this.personId=personId;
+    }
     public Date getDate() {
         return date;
     }
@@ -34,27 +38,27 @@ public class Transaction {
         this.price = price;
     }
 
-    public long getOrganizationId() {
+    public int getOrganizationId() {
         return organizationId;
     }
 
-    public void setOrganizationId(long organizationId) {
+    public void setOrganizationId(int organizationId) {
         this.organizationId = organizationId;
     }
 
-    public long getPersonId() {
+    public int getPersonId() {
         return personId;
     }
 
-    public void setPersonId(long personId) {
+    public void setPersonId(int personId) {
         this.personId = personId;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 }

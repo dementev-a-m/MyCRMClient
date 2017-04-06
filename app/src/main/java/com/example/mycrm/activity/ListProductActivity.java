@@ -22,8 +22,8 @@ public class ListProductActivity extends AppCompatActivity {
         RecyclerView recyclerView = (RecyclerView)findViewById(R.id.list_product);
         LinearLayoutManager layoutManager= new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        ProductListAdapter productListAdapter = new ProductListAdapter(this);
-        recyclerView.setAdapter(productListAdapter);
+        ProductListAdapter adapter = new ProductListAdapter(this);
+        recyclerView.setAdapter(adapter);
     }
 
     private void setProductData() {
